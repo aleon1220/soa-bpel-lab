@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://calculatorsoa.azurewebsites.net/Calculator.svc?wsdl" uri="src/calculatorsoa.azurewebsites.net/Calculator.svc.wsdl"/>
+    <system systemId="http://calculatorsoa.azurewebsites.net/Calculator.svc?xsd=xsd0" uri="src/calculatorsoa.azurewebsites.net/Calculator.svc.xsd_xsd0.xsd"/>
+    <system systemId="http://calculatorsoa.azurewebsites.net/Calculator.svc?xsd=xsd1" uri="src/calculatorsoa.azurewebsites.net/Calculator.svc.xsd_xsd1.xsd"/>
+</catalog>
