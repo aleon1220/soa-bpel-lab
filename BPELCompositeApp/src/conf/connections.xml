@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jbi xmlns="http://java.sun.com/xml/ns/jbi" xmlns:ns1="http://j2ee.netbeans.org/wsdl/BPELSampleWSDL" xmlns:ns2="http://enterprise.netbeans.org/bpel/BpelModule/BpelProcess" xmlns:ns3="http://tempuri.org/" version="1.0">
+    <service-assembly>
+        <identification>
+            <name>BPELCompositeApp</name>
+            <description>Represents the Service Assembly of BPELCompositeApp</description>
+        </identification>
+        <connections>
+            <connection>
+                <consumer endpoint-name="BPELSampleWSDLPort" service-name="ns1:BPELSampleWSDLService"/>
+                <provider endpoint-name="BPELSampleWSDLPortTypeRole_myRole" service-name="ns2:PartnerLink1"/>
+            </connection>
+            <connection>
+                <consumer endpoint-name="ICalculatorRole_partnerRole" service-name="ns2:PartnerLink2"/>
+                <provider endpoint-name="BasicHttpBinding_IService1" service-name="ns3:Calculator"/>
+            </connection>
+        </connections>
+    </service-assembly>
+</jbi>

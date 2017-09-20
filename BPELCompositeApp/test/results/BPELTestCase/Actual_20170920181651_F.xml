@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Body>
+    <MultiplyNumbersResponse xmlns="http://tempuri.org/">
+      <MultiplyNumbersResult>5025</MultiplyNumbersResult>
+    </MultiplyNumbersResponse>
+  </s:Body>
+</s:Envelope>
